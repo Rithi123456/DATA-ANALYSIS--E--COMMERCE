@@ -1,0 +1,81 @@
+Sales Data Visualization and Predictive Modeling Project
+This project focuses on analyzing, visualizing, and predicting sales performance using Python. I explored real sales and expense data to uncover trends, visualize patterns, and build a predictive model that estimates future sales.
+
+The goal was to turn raw business data into meaningful insights that could support smarter decision-making.
+
+Project Overview
+I worked with multiple datasets — including Amazon sales, warehouse metrics, and expense reports — to create a unified analysis pipeline. After cleaning and merging the data, I visualized sales performance across time and categories, and finally developed a machine learning model to forecast upcoming sales trends.
+
+Technologies & Libraries Used
+
+1.Python — Main programming language
+
+2.Pandas — Data manipulation and preprocessing
+
+3.NumPy — Numerical computations
+
+4.Matplotlib — Core visualizations
+
+5.Seaborn — Statistical and aesthetic data visualization
+
+6.Scikit-learn — Predictive modeling and machine learning
+
+7.Warnings — Used for managing runtime warnings during data processing.
+
+Data Sources
+I processed the following CSV files in this project:
+
+1.Amazon Sale Report – Online sales data from Amazon
+
+2.Cloud Warehouse Comparison Chart – Warehouse performance metrics
+
+3.Expense IIGF – Operational expense tracking
+
+4.International Sale Report – Country-wise sales data
+
+5.May-2022 – Monthly sales snapshot
+
+6.P&L March 2021 – Profit and loss report
+
+7.Sale Report – General sales records
+
+Data Cleaning Process
+In this project, I performed several data cleaning tasks:
+
+*Removed unnecessary and duplicate columns (Unnamed columns)
+
+*Handled missing values where appropriate
+
+*Standardized date columns into proper datetime format for time-series analysis
+
+*Aggregated sales by date and product category
+
+Visualizations
+I created the following visualizations to represent the data:
+
+1.Sales Trend Over Time — Line chart showing how total sales evolve across months
+
+2.Sales by Category — Horizontal bar chart comparing revenue by category
+
+Sales Predictive Model
+I trained a machine learning model (using Scikit-learn) on historical sales data to:
+
+*Capture seasonal and temporal patterns
+
+*Predict future sales volume
+
+*Provide a data-driven outlook for planning and budgeting
+
+How to Use
+To run the project:
+
+Ensure you have Python installed along with the required libraries. You can install them using:
+
+*pip install pandas numpy matplotlib seaborn scikit-learn
+
+*Place the CSV files in an archive folder within the same directory as this script.
+
+Execute the script in your Python environment. The visualizations and predictive model outputs will be displayed sequentially.
+
+Conclusion
+This project enabled me to analyze, visualize, and forecast sales performance, providing valuable insights for data-driven decision-making. I look forward to exploring further insights and adapting the project.
